@@ -1,0 +1,15 @@
+
+.search-filter-field{
+    width: 200px;
+    height: 15px;
+    border-radius: 15px;
+    padding: 10px;  
+}
+
+.search-icon{
+    margin-left: -2rem;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}

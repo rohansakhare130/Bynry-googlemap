@@ -1,38 +1,77 @@
-.App {
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.App-main{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+  
+  
+}
+.App-container-bg {
+  min-height: 705px;
+  background-image: url(./asset/images/platform-bg.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  /* margin-top: -95px; */
+  padding-bottom: 0;
+  /* display: flex; */
+  overflow: visible;
+}
+
+.head-img-1{
+  width: 100px;
+}
+.search-icon{
+  margin-right: 40px;
+}
+.App-head-text{
+  font-size: 34px;
   text-align: center;
+  font-weight: 700;
+}
+.searchfilter1{
+margin-left: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-details{
+  width: 300px;
+  height: 370px;
+  box-shadow: 5px 4px 4px 5px #828282;
+ /* align-items: center; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 40px;
+  padding: 20px;
+margin-left: 20px;
+margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-profile-img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px; 
+  margin: 0 auto;
+}
+.App-prof-heder-text{
+  color: blue;
+}
+.App-prof-text1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(1, 1, 1);
+  margin-top: -10px;
+}
+.App-prof-text2{
+  font-size: 1.2rem;
+  color: rgb(78, 77, 77);
+  margin-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-content-heder{
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 600;
 }
