@@ -20,7 +20,7 @@ const Map = ({ center, profiles, selectedProfile, onSelectProfile }) => {
       <div className="error-message">{mapError}</div>
     ) : (
       <LoadScript 
-      googleMapsApiKey="AIzaSyCEQd8UvRrJZZIxHG4xlIdub3HmdYrEWJE"
+      googleMapsApiKey="Enter key"
       onLoadError={handleMapLoadError}
       >
         <GoogleMap
